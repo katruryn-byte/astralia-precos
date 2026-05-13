@@ -1,9 +1,9 @@
 {
-  "lilith": { "preco": 47.97, "preco_de": 67.97, "titulo": "Mapa da Lilith", "ativo": true, "parcelas_max": 3 },
-  "mapakarmico": { "preco": 47.97, "preco_de": 67.97, "titulo": "Mapa Karmico", "ativo": true, "parcelas_max": 3 },
-  "mapadasorte": { "preco": 47.97, "preco_de": 67.97, "titulo": "Mapa da Sorte", "ativo": true, "parcelas_max": 3 },
-  "sinastria": { "preco": 87.97, "preco_de": 117.97, "titulo": "Sinastria Amorosa", "ativo": true, "parcelas_max": 6 },
-  "mapaprofissional": { "preco": 47.97, "preco_de": 67.97, "titulo": "Mapa Profissional", "ativo": true, "parcelas_max": 3 },
-  "mapaprevisoes": { "preco": 127.97, "preco_de": 197.97, "titulo": "Mapa de Previsoes", "ativo": true, "parcelas_max": 6 },
-  "revolucaosolar": { "preco": 47.97, "preco_de": 67.97, "titulo": "Revolucao Solar", "ativo": true, "parcelas_max": 3 }
+  "lilith": { "preco": 1.00, "preco_de": 67.97, "titulo": "Mapa da Lilith", "ativo": true, "parcelas_max": 3 },
+  "mapakarmico": { "preco": 1.00, "preco_de": 67.97, "titulo": "Mapa Karmico", "ativo": true, "parcelas_max": 3 },
+  "mapadasorte": { "preco": 1.00, "preco_de": 67.97, "titulo": "Mapa da Sorte", "ativo": true, "parcelas_max": 3 },
+  "sinastria": { "preco": 1.00, "preco_de": 117.97, "titulo": "Sinastria Amorosa", "ativo": true, "parcelas_max": 6 },
+  "mapaprofissional": { "preco": 1.00, "preco_de": 67.97, "titulo": "Mapa Profissional", "ativo": true, "parcelas_max": 3 },
+  "mapaprevisoes": { "preco": 1.00, "preco_de": 197.97, "titulo": "Mapa de Previsoes", "ativo": true, "parcelas_max": 6 },
+  "revolucaosolar": { "preco": 1.00, "preco_de": 67.97, "titulo": "Revolucao Solar", "ativo": true, "parcelas_max": 3 }
 }
