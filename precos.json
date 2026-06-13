@@ -19,7 +19,7 @@
     "no_combo": true
   },
   "mapakarmico": {
-    "ativo": false,
+    "ativo": true,
     "preco": 1.0,
     "preco_de": null,
     "parcelas_max": 3,
