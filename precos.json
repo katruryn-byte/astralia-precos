@@ -23,7 +23,7 @@
         "preco": 1.0,
         "preco_de": null,
         "parcelas_max": 3,
-        "titulo": "Mapa K\u00e1rmico",
+        "titulo": "Mapa Kármico",
         "precoCheio": null,
         "no_combo": true
     },
@@ -50,30 +50,31 @@
         "preco": 497.97,
         "preco_de": null,
         "parcelas_max": 3,
-        "titulo": "Mapa de Previs\u00f5es 18 Meses",
+        "titulo": "Mapa de Previsões 18 Meses",
         "precoCheio": 497.97,
         "no_combo": false,
-        "_nota": "Cat\u00e1logo R$497,97, entrega em at\u00e9 7 dias. ativo:false ate o motor de geracao (orquestrador + prompt + worker-previsoes) existir \u2014 NAO ativar cobranca real sem o worker, senao cobra sem entregar. Para testar pagamento antes do motor: trocar preco para 1.0 temporariamente. Quando o motor estiver pronto: ativo:true mantendo preco 497.97."
+        "_nota": "Catálogo R$497,97, entrega em até 7 dias. ativo:false ate o motor de geracao (orquestrador + prompt + worker-previsoes) existir — NAO ativar cobranca real sem o worker, senao cobra sem entregar. Para testar pagamento antes do motor: trocar preco para 1.0 temporariamente. Quando o motor estiver pronto: ativo:true mantendo preco 497.97."
     },
     "revolucaosolar": {
         "ativo": false,
         "preco": 1.0,
         "preco_de": null,
         "parcelas_max": 3,
-        "titulo": "Revolu\u00e7\u00e3o Solar",
+        "titulo": "Revolução Solar",
         "precoCheio": null,
         "no_combo": false,
-        "_nota": "fora do combo at\u00e9 o motor de gera\u00e7\u00e3o existir (Etapa 2) \u2014 C\u00f3dice nunca entrega parcial"
+        "_nota": "fora do combo até o motor de geração existir (Etapa 2) — Códice nunca entrega parcial"
     },
     "mapaastral": {
-        "ativo": false,
-        "preco": null,
+        "ativo": true,
+        "preco": 1.0,
         "preco_de": null,
         "parcelas_max": 3,
         "titulo": "Mapa Astral",
         "precoCheio": null,
         "no_combo": false,
-        "isca": true
+        "isca": true,
+        "_nota": "TESTE: ativo:true + preco:1.0 para validar pipeline do hub. PRODUCAO: manter ativo:true e trocar preco para o valor real de lancamento (47,97 ou 57,97 — definir)."
     },
     "sinastria": {
         "ativo": true,
@@ -83,10 +84,10 @@
         "titulo": "Sinastria Amorosa",
         "precoCheio": 147.0,
         "no_combo": false,
-        "_nota": "campanha Dia dos Namorados 12/06: 50% OFF (73,50). P\u00f3s-campanha: subir para 147,00 (pre\u00e7o cheio real)."
+        "_nota": "campanha Dia dos Namorados 12/06: 50% OFF (73,50). Pós-campanha: subir para 147,00 (preço cheio real)."
     },
     "_codice": {
-        "nome": "O C\u00f3dice Astral",
+        "nome": "O Códice Astral",
         "desconto_combo": 0.3,
         "desconto_downsell": 0.2,
         "desconto_cupom_cliente": 0.1,
