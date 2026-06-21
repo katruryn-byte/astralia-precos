@@ -2,7 +2,7 @@
     "_leiame": "Fonte de verdade de precos da Astralia. Repo PUBLICO, lido via raw sem login. Edite aqui para mudar precos SEM deploy. O codigo le data[id].ativo e data[id].preco. 'titulo' = nome de exibicao. 'precoCheio' = preco de venda exibido (Por). 'preco_de' = riscado. 'no_combo' marca quem entra no Codice Astral. Chaves com _ sao config, nao produtos.",
     "lilith": {
         "ativo": true,
-        "preco": 1.0,
+        "preco": 197.0,
         "preco_de": 347.0,
         "parcelas_max": 3,
         "titulo": "Mapa da Lilith",
@@ -11,17 +11,17 @@
     },
     "mapaastralpersonalizado": {
         "ativo": false,
-        "preco": 1.0,
-        "preco_de": null,
+        "preco": 297.97,
+        "preco_de": 499.0,
         "parcelas_max": 3,
         "titulo": "Mapa Astral Premium",
-        "precoCheio": null,
+        "precoCheio": 297.97,
         "no_combo": true,
-        "_nota": "Mesmo produto que o Mapa Personalizado. Preco de venda ainda nao definido."
+        "_nota": "Mesmo produto que o Mapa Personalizado. Preco definido: De R$499, Por R$297,97 (promo). ativo:false ate o subdominio entrar no ar — NAO ligar enquanto o dominio estiver fora, o produto nao entrega."
     },
     "mapakarmico": {
         "ativo": true,
-        "preco": 1.0,
+        "preco": 257.0,
         "preco_de": 397.0,
         "parcelas_max": 3,
         "titulo": "Mapa Kármico",
@@ -29,8 +29,8 @@
         "no_combo": true
     },
     "mapaprofissional": {
-        "ativo": false,
-        "preco": 1.0,
+        "ativo": true,
+        "preco": 197.97,
         "preco_de": 347.0,
         "parcelas_max": 3,
         "titulo": "Mapa Profissional e Vocacional",
@@ -39,8 +39,8 @@
         "_nota": "Preco permanente 197,97 (sem virada de lancamento)."
     },
     "mapadasorte": {
-        "ativo": false,
-        "preco": 1.0,
+        "ativo": true,
+        "preco": 299.0,
         "preco_de": 697.0,
         "parcelas_max": 3,
         "titulo": "Mapa da Sorte e Prosperidade",
@@ -48,8 +48,8 @@
         "no_combo": true
     },
     "mapaprevisoes": {
-        "ativo": false,
-        "preco": 1.0,
+        "ativo": true,
+        "preco": 697.0,
         "preco_de": 1497.0,
         "parcelas_max": 3,
         "titulo": "Mapa de Previsões 18 Meses",
@@ -57,28 +57,28 @@
         "preco_apos": 997.0,
         "lancamento_ate": "",
         "no_combo": false,
-        "_nota": "Lancamento: R$697 no 1o mes (precoCheio), depois R$997 (preco_apos). De: R$1497. preco:1.0 = TESTE. Motor confirmado (entrega por e-mail OK). Para cobrar de verdade no go-live: ativo:true + preco:697.00, e preencher lancamento_ate com a data de fim da 1a semana/mes."
+        "_nota": "Go-live: ativo:true, preco:697 (1o periodo), depois 997 (preco_apos). De: R$1497. Motor confirmado (entrega por e-mail OK). FALTA preencher lancamento_ate com a data em que o preco vira 997 — vazio = fica 697 fixo."
     },
     "revolucaosolar": {
-        "ativo": false,
-        "preco": 1.0,
+        "ativo": true,
+        "preco": 167.0,
         "preco_de": 297.0,
         "parcelas_max": 3,
         "titulo": "Revolução Solar",
         "precoCheio": 167.0,
         "no_combo": false,
-        "_nota": "fora do combo até o motor de geração existir (Etapa 2) — Códice nunca entrega parcial"
+        "_nota": "Motor confirmado na Fase B. fora do combo Codice ate revisar inclusao — Códice nunca entrega parcial"
     },
     "mapaastral": {
         "ativo": true,
-        "preco": 1.0,
-        "preco_de": null,
+        "preco": 47.97,
+        "preco_de": 87.0,
         "parcelas_max": 3,
         "titulo": "Mapa Astral",
-        "precoCheio": 47.0,
+        "precoCheio": 47.97,
         "no_combo": false,
         "isca": true,
-        "_nota": "TESTE: ativo:true + preco:1.0. PRODUCAO: manter ativo:true e trocar preco para 47.00 (precoCheio)."
+        "_nota": "Isca. PRODUCAO: preco 47,97 (promo 1o mes), De 87. Apos o 1o mes, subir preco para 87.00. ATENCAO: o hub tem este preco hardcoded em PRODUTOS — atualizar la tambem (precoNum 57.97 -> 47.97)."
     },
     "sinastria": {
         "ativo": true,
