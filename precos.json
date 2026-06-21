@@ -1,9 +1,9 @@
 {
-    "_leiame": "Fonte de verdade de precos da Astralia. Repo PUBLICO, lido via raw sem login. Edite aqui para mudar precos SEM deploy. O codigo le data[id].ativo e data[id].preco. 'titulo' = nome de exibicao. 'no_combo' marca quem entra no Codice Astral. Chaves com _ sao config, nao produtos.",
+    "_leiame": "Fonte de verdade de precos da Astralia. Repo PUBLICO, lido via raw sem login. Edite aqui para mudar precos SEM deploy. O codigo le data[id].ativo e data[id].preco. 'titulo' = nome de exibicao. 'precoCheio' = preco de venda exibido (Por). 'preco_de' = riscado. 'no_combo' marca quem entra no Codice Astral. Chaves com _ sao config, nao produtos.",
     "lilith": {
         "ativo": true,
         "preco": 1.0,
-        "preco_de": 197.0,
+        "preco_de": 347.0,
         "parcelas_max": 3,
         "titulo": "Mapa da Lilith",
         "precoCheio": 197.0,
@@ -16,52 +16,56 @@
         "parcelas_max": 3,
         "titulo": "Mapa Astral Premium",
         "precoCheio": null,
-        "no_combo": true
+        "no_combo": true,
+        "_nota": "Mesmo produto que o Mapa Personalizado. Preco de venda ainda nao definido."
     },
     "mapakarmico": {
         "ativo": true,
         "preco": 1.0,
-        "preco_de": null,
+        "preco_de": 397.0,
         "parcelas_max": 3,
         "titulo": "Mapa Kármico",
-        "precoCheio": null,
+        "precoCheio": 257.0,
         "no_combo": true
     },
     "mapaprofissional": {
         "ativo": false,
         "preco": 1.0,
-        "preco_de": null,
+        "preco_de": 347.0,
         "parcelas_max": 3,
         "titulo": "Mapa Profissional e Vocacional",
-        "precoCheio": null,
-        "no_combo": true
+        "precoCheio": 197.97,
+        "no_combo": true,
+        "_nota": "Preco permanente 197,97 (sem virada de lancamento)."
     },
     "mapadasorte": {
         "ativo": false,
         "preco": 1.0,
-        "preco_de": null,
+        "preco_de": 697.0,
         "parcelas_max": 3,
         "titulo": "Mapa da Sorte e Prosperidade",
-        "precoCheio": null,
+        "precoCheio": 299.0,
         "no_combo": true
     },
     "mapaprevisoes": {
         "ativo": false,
-        "preco": 497.97,
-        "preco_de": null,
+        "preco": 1.0,
+        "preco_de": 1497.0,
         "parcelas_max": 3,
         "titulo": "Mapa de Previsões 18 Meses",
-        "precoCheio": 497.97,
+        "precoCheio": 697.0,
+        "preco_apos": 997.0,
+        "lancamento_ate": "",
         "no_combo": false,
-        "_nota": "Catálogo R$497,97, entrega em até 7 dias. ativo:false ate o motor de geracao (orquestrador + prompt + worker-previsoes) existir — NAO ativar cobranca real sem o worker, senao cobra sem entregar. Para testar pagamento antes do motor: trocar preco para 1.0 temporariamente. Quando o motor estiver pronto: ativo:true mantendo preco 497.97."
+        "_nota": "Lancamento: R$697 no 1o mes (precoCheio), depois R$997 (preco_apos). De: R$1497. preco:1.0 = TESTE. Motor confirmado (entrega por e-mail OK). Para cobrar de verdade no go-live: ativo:true + preco:697.00, e preencher lancamento_ate com a data de fim da 1a semana/mes."
     },
     "revolucaosolar": {
         "ativo": false,
         "preco": 1.0,
-        "preco_de": null,
+        "preco_de": 297.0,
         "parcelas_max": 3,
         "titulo": "Revolução Solar",
-        "precoCheio": null,
+        "precoCheio": 167.0,
         "no_combo": false,
         "_nota": "fora do combo até o motor de geração existir (Etapa 2) — Códice nunca entrega parcial"
     },
@@ -71,10 +75,10 @@
         "preco_de": null,
         "parcelas_max": 3,
         "titulo": "Mapa Astral",
-        "precoCheio": null,
+        "precoCheio": 47.0,
         "no_combo": false,
         "isca": true,
-        "_nota": "TESTE: ativo:true + preco:1.0 para validar pipeline do hub. PRODUCAO: manter ativo:true e trocar preco para o valor real de lancamento (47,97 ou 57,97 — definir)."
+        "_nota": "TESTE: ativo:true + preco:1.0. PRODUCAO: manter ativo:true e trocar preco para 47.00 (precoCheio)."
     },
     "sinastria": {
         "ativo": true,
@@ -84,7 +88,7 @@
         "titulo": "Sinastria Amorosa",
         "precoCheio": 147.0,
         "no_combo": false,
-        "_nota": "campanha Dia dos Namorados 12/06: 50% OFF (73,50). Pós-campanha: subir para 147,00 (preço cheio real)."
+        "_nota": "Campanha Dia dos Namorados: 50% OFF (73,50), ativa ate o fim do mes. Pos-campanha: definir preco base (trocar preco/precoCheio)."
     },
     "_codice": {
         "nome": "O Códice Astral",
