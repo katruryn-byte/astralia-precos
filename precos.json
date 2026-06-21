@@ -71,14 +71,14 @@
     },
     "mapaastral": {
         "ativo": true,
-        "preco": 1,
+        "preco": 47.97,
         "preco_de": 87.0,
         "parcelas_max": 3,
         "titulo": "Mapa Astral",
         "precoCheio": 47.97,
         "no_combo": false,
         "isca": true,
-        "_nota": "Isca. PRODUCAO: preco 47,97 (promo 1o mes), De 87. Apos o 1o mes, subir preco para 87.00. ATENCAO: o hub tem este preco hardcoded em PRODUTOS — atualizar la tambem (precoNum 57.97 -> 47.97)."
+        "_nota": "Isca. PRODUCAO: preco 1 (promo 1o mes), De 87. Apos o 1o mes, subir preco para 87.00. ATENCAO: o hub tem este preco hardcoded em PRODUTOS — atualizar la tambem (precoNum 57.97 -> 47.97)."
     },
     "sinastria": {
         "ativo": true,
