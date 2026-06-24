@@ -96,6 +96,7 @@
     "desconto_downsell": 0.2,
     "desconto_cupom_cliente": 0.1,
     "timeout_horas": 24,
-    "timeout_reinicia": false
+    "timeout_reinicia": false,
+    "desconto_combo_sem_previsoes": 0.3
   }
 }
