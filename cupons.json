@@ -1,46 +1,5 @@
-// ============================================================
-// _cupom.js — cupons avulsos das deusas (independente do código de cliente/Lilith).
-// Lê cupons.json central; valida ativo, produto, validade e limite de uso (contador Redis).
-// tipos: 'percent' (% off) | 'valor' (R$ off) | 'preco_fixo' (trava o preço, ex.: teste R$1).
-// NÃO empilha com o combo (a landing/pagamento só aplica cupom quando não há oferta ativa).
-// ============================================================
-const { createClient } = require('redis');
-const CUPONS_URL = 'https://raw.githubusercontent.com/katruryn-byte/astralia-precos/main/cupons.json';
-
-function norm(c){ return String(c||'').trim().toUpperCase(); }
-async function carregarCupons(){
-  try { const r = await fetch(CUPONS_URL + '?t=' + Date.now()); if(!r.ok) return {}; return await r.json(); } catch(e){ return {}; }
+{
+  "_leiame": "Cupons avulsos das deusas (afrodite/circe/persefone). Para criar/editar, mexa só neste arquivo. tipo: 'percent' (% off) | 'valor' (R$ off) | 'preco_fixo' (trava o preco, ex.: teste R$1). ativo:false desliga na hora. produtos = onde vale. validade = YYYY-MM-DD (ultimo dia valido). limite = numero maximo de usos (some quando atingir). NAO acumula com o combo.",
+  "ASTRO-ADM-01REAL": { "tipo": "preco_fixo", "valor": 1, "ativo": true, "produtos": ["afrodite", "circe", "persefone"], "validade": "2026-12-31", "limite": 20 },
+  "BEMVINDA20": { "tipo": "percent", "valor": 20, "ativo": false, "produtos": ["afrodite", "circe", "persefone"], "validade": "2026-12-31", "limite": 100 }
 }
-async function usosDe(redisUrl, chave){
-  const rc = createClient({ url: redisUrl }); rc.on('error', ()=>{});
-  try { await rc.connect(); const v = await rc.get('cupom_uso:'+chave); await rc.quit(); return parseInt(v||'0',10)||0; }
-  catch(e){ try{ await rc.quit(); }catch(_){} return 0; }
-}
-// valida e calcula o preço. base = preço já com opcionais. Retorna {valido, motivo, preco, tipo, valor, descricao, codigo}.
-async function validarCupom(redisUrl, codigoRaw, produto, base){
-  const codigo = norm(codigoRaw);
-  if(!codigo) return { valido:false, motivo:'vazio' };
-  const cupons = await carregarCupons();
-  let cfg=null, chave=null;
-  for(const k of Object.keys(cupons)){ if(k.charAt(0)!=='_' && norm(k)===codigo){ cfg=cupons[k]; chave=norm(k); break; } }
-  if(!cfg) return { valido:false, motivo:'inexistente' };
-  if(cfg.ativo===false) return { valido:false, motivo:'inativo' };
-  if(Array.isArray(cfg.produtos) && cfg.produtos.indexOf(produto)===-1) return { valido:false, motivo:'produto' };
-  if(cfg.validade){ const fim=new Date(cfg.validade+'T23:59:59-03:00').getTime(); if(isFinite(fim) && Date.now()>fim) return { valido:false, motivo:'expirado' }; }
-  if(typeof cfg.limite==='number' && cfg.limite>=0){ const u=await usosDe(redisUrl, chave); if(u>=cfg.limite) return { valido:false, motivo:'esgotado' }; }
-  let preco=Number(base)||0;
-  if(cfg.tipo==='percent') preco = preco*(1-(Number(cfg.valor)||0)/100);
-  else if(cfg.tipo==='valor') preco = preco-(Number(cfg.valor)||0);
-  else if(cfg.tipo==='preco_fixo') preco = (Number(cfg.valor)||preco);
-  preco = Math.max(0, Math.round(preco*100)/100);
-  const desc = cfg.tipo==='percent' ? ((Number(cfg.valor)||0)+'% de desconto')
-             : cfg.tipo==='valor' ? ('R$ '+(Number(cfg.valor)||0)+' de desconto')
-             : ('preço especial R$ '+(Number(cfg.valor)||0));
-  return { valido:true, codigo:chave, preco, tipo:cfg.tipo, valor:Number(cfg.valor)||0, descricao:desc };
-}
-async function registrarUsoCupom(redisUrl, codigoRaw){
-  const chave=norm(codigoRaw); if(!chave) return;
-  const rc = createClient({ url: redisUrl }); rc.on('error', ()=>{});
-  try { await rc.connect(); await rc.incr('cupom_uso:'+chave); await rc.quit(); } catch(e){ try{ await rc.quit(); }catch(_){} }
-}
-module.exports = { validarCupom, registrarUsoCupom, carregarCupons };
