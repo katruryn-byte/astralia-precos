@@ -82,13 +82,12 @@
   },
   "sinastria": {
     "ativo": true,
-    "preco": 73.5,
-    "preco_de": 147.0,
+    "preco": 147.0,
     "parcelas_max": 3,
     "titulo": "Sinastria Amorosa",
     "precoCheio": 147.0,
     "no_combo": false,
-    "_nota": "Campanha Dia dos Namorados: 50% OFF (73,50), ativa ate o fim do mes. Pos-campanha: definir preco base (trocar preco/precoCheio)."
+    "_nota": "Pos-campanha Dia dos Namorados encerrada (24/06/2026): preco base R$147, sem promocao/riscado."
   },
   "_codice": {
     "nome": "O Códice Astral",
@@ -96,7 +95,6 @@
     "desconto_downsell": 0.2,
     "desconto_cupom_cliente": 0.1,
     "timeout_horas": 24,
-    "timeout_reinicia": false,
-    "desconto_combo_sem_previsoes": 0.3
+    "timeout_reinicia": false
   }
 }
