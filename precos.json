@@ -96,6 +96,16 @@
     "desconto_downsell": 0.2,
     "desconto_cupom_cliente": 0.1,
     "timeout_horas": 24,
-    "timeout_reinicia": false
+    "timeout_reinicia": false,
+    "combo_fixo": {
+      "ativo": false,
+      "preco": null,
+      "produtos": [],
+      "titulo": "",
+      "aplica_com_compras": false,
+      "permite_downsell": true,
+      "permite_cupom_cliente": true,
+      "_nota": "INERTE. Combo de PRECO FIXO. Para ligar: ativo:true + preco (numero). Enquanto ativo:false ou preco:null, vale o combo DINAMICO de hoje (soma dos faltantes com 50%/30%). produtos: vazio = usa quem tem no_combo:true; com lista = so esses. aplica_com_compras:false = preco fixo SO para quem nao tem nenhum mapa do combo (quem ja comprou continua no dinamico, pagando so o que falta). permite_downsell/permite_cupom_cliente:true = mantem o comportamento de hoje (20% e 10% ainda incidem sobre o fixo); poe false para travar o valor cheio."
+    }
   }
 }
