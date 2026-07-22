@@ -90,6 +90,16 @@
     "no_combo": false,
     "_nota": "Preco base R$147, promocao de lancamento com riscado De R$197 (definido 25/06/2026)."
   },
+  "astrocartografia": {
+    "ativo": true,
+    "preco": 49.97,
+    "preco_de": 49.97,
+    "parcelas_max": 3,
+    "titulo": "Astrocartografia — Mapa de Lugares",
+    "precoCheio": 49.97,
+    "no_combo": false,
+    "_nota": "Fase 4 (22/07/2026). Produto DETERMINISTICO (sem IA): motor self-hosted calcula 40 linhas planetarias + 40 verbetes PT + mapa-mundi. Entrega: PDF por e-mail via worker do hub (esteira astralia:fila, igual ao Mapa Astral). Preco R$49,97. preco_de deixado = preco (sem ancora riscada) — âncora de marketing aguarda decisao da Jordana (gate preco). GATE: publicar (git push deste repo) SO apos OK da Jordana."
+  },
   "_codice": {
     "nome": "O Códice Astral",
     "desconto_combo": 0.5,
