@@ -1,5 +1,5 @@
 {
-  "_leiame": "Cupons avulsos das deusas (afrodite/circe/persefone). Para criar/editar, mexa só neste arquivo. tipo: 'percent' (% off) | 'valor' (R$ off) | 'preco_fixo' (trava o preco, ex.: teste R$1). ativo:false desliga na hora. produtos = onde vale. validade = YYYY-MM-DD (ultimo dia valido). limite = numero maximo de usos (some quando atingir). NAO acumula com o combo.",
-  "ASTRO-ADM-01REAL": { "tipo": "preco_fixo", "valor": 1, "ativo": true, "produtos": ["afrodite", "circe", "persefone"], "validade": "2026-12-31", "limite": 20 },
+  "_leiame": "Cupons avulsos das deusas (afrodite/circe/persefone). Para criar/editar, mexa so neste arquivo. tipo: 'percent' (% off) | 'valor' (R$ off) | 'preco_fixo' (trava o preco, ex.: teste R$1). ativo:false desliga na hora. produtos = onde vale. validade = YYYY-MM-DD (ultimo dia valido). limite = numero maximo de usos (some quando atingir). NAO acumula com o combo.",
+  "_regra_codigo_admin": "NUNCA publicar codigo admin (preco_fixo R$1) neste arquivo. O repo e PUBLICO e lido via raw sem login: a chave vira publica no mesmo instante. Codigo admin vive SO na env CODIGO_ADMIN_TESTE da Vercel, conferida por api/validar-codigo.js. Removido em 24/07/2026 o ASTRO-ADM-01REAL, que era o proprio valor da env — qualquer pessoa fechava qualquer mapa do hub por R$1,00, sem limite, porque o endpoint nao le este arquivo e portanto ignorava 'produtos' e 'limite'.",
   "BEMVINDA20": { "tipo": "percent", "valor": 20, "ativo": false, "produtos": ["afrodite", "circe", "persefone"], "validade": "2026-12-31", "limite": 100 }
 }
