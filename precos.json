@@ -100,6 +100,26 @@
     "no_combo": false,
     "_nota": "Fase 4 (22/07/2026). Produto DETERMINISTICO (sem IA): motor self-hosted calcula 40 linhas planetarias + 40 verbetes PT + mapa-mundi. Entrega: PDF por e-mail via worker do hub (esteira astralia:fila, igual ao Mapa Astral). Preco R$49,97. preco_de deixado = preco (sem ancora riscada) — âncora de marketing aguarda decisao da Jordana (gate preco). GATE: publicar (git push deste repo) SO apos OK da Jordana."
   },
+  "taropergunta": {
+    "ativo": true,
+    "preco": 19.97,
+    "preco_de": 19.97,
+    "parcelas_max": 1,
+    "titulo": "Tarô — Pergunta Objetiva",
+    "precoCheio": 19.97,
+    "no_combo": false,
+    "_nota": "Autorizado pela Jordana em 28/07/2026. 3 cartas para uma pergunta. Sorteio DETERMINISTICO pelo sessionId: o PDF traz exatamente as cartas que ela viu virar na tela. Entrega: PDF ilustrado por e-mail (Resend) via worker, prazo declarado na pagina = ate 1 hora. A vista (a pagina /leitura-de-taro anuncia assim). Fora do Codice: o combo e de mapas."
+  },
+  "tarotiragem": {
+    "ativo": true,
+    "preco": 57.0,
+    "preco_de": 57.0,
+    "parcelas_max": 1,
+    "titulo": "Tarô — Tiragem Completa",
+    "precoCheio": 57.0,
+    "no_combo": false,
+    "_nota": "Autorizado pela Jordana em 28/07/2026. Tiragem de 10-12 cartas com tema. Preco 57 (e NAO os 47,97 da escada original, que empatava com o Mapa Astral e canibalizava a isca). Mesma esteira da taropergunta. A vista. Fora do Codice."
+  },
   "_codice": {
     "nome": "O Códice Astral",
     "desconto_combo": 0.5,
