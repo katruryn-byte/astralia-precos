@@ -80,6 +80,17 @@
     "isca": true,
     "_nota": "Isca. PRODUCAO: preco 47,97 (promo 1o mes), De 87. Apos o 1o mes, subir preco para 87.00. ATENCAO: o hub tem este preco hardcoded em PRODUTOS — atualizar la tambem (precoNum 57.97 -> 47.97)."
   },
+  "mapaastralteste": {
+    "ativo": true,
+    "preco": 17.97,
+    "preco_de": 47.97,
+    "parcelas_max": 1,
+    "titulo": "Mapa Astral",
+    "precoCheio": 17.97,
+    "no_combo": true,
+    "isca": true,
+    "_nota": "OFERTA DE TESTE, so por link (23/08/2026). Mesma entrega do mapaastral. Chave PROPRIA para a venda do teste ser mensuravel separada da vitrine. NAO entra no feed, no sitemap nem no menu. Objetivo: descobrir se vende a este preco e colher os primeiros depoimentos. Encerrar ou reprecificar depois do teste."
+  },
   "sinastria": {
     "ativo": true,
     "preco": 147.0,
