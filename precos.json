@@ -94,15 +94,15 @@
   },
   "mapaastralformulario": {
     "ativo": true,
-    "preco": 29.97,
+    "preco": 19.97,
     "preco_de": 47.97,
     "parcelas_max": 3,
     "titulo": "Mapa Astral",
-    "precoCheio": 29.97,
+    "precoCheio": 19.97,
     "no_combo": true,
     "isca": true,
     "oculto": true,
-    "_nota": "OFERTA DO FORMULARIO, so para quem vem do /ascendente (09/09/2026, ordem dela). Mesma entrega do mapaastral. Chave PROPRIA para a venda do formulario ser mensuravel separada da vitrine: o mapaastral segue 47,97 no site. NAO entra no feed, no sitemap nem no menu. Objetivo: descobrir se o formulario gratis converte melhor com preco de entrada mais baixo."
+    "_nota": "OFERTA DO FORMULARIO, so para quem vem do /ascendente (09/09/2026, ordem dela). Preco 19,97 — abaixo do concorrente meucodigodaalma.com.br (R$ 29,90). Mesma entrega do mapaastral. Chave PROPRIA para a venda do formulario ser mensuravel separada da vitrine: o mapaastral segue 47,97 no site. NAO entra no feed, no sitemap nem no menu."
   },
   "sinastria": {
     "ativo": true,
