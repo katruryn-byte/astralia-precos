@@ -68,7 +68,7 @@
     "titulo": "Revolução Solar",
     "precoCheio": 167.0,
     "no_combo": false,
-    "_nota": "DESATIVADO em 14/09/2026, ordem da Jordana: nao existe esteira de entrega (api/_catalogo.js sem hubGera) e o checkout RECUSA com PRODUTO_SEM_ENTREGA — medido no ar em 14/09, POST /api/pagamento devolveu 400. A nota anterior dizia 'Motor confirmado na Fase B': o motor existe no repo legado (PR #90 do hub porta ele), mas portar o motor NAO e ligar a entrega. Fora do combo Codice ate revisar inclusao — o Codice nunca entrega parcial. REABRIR so depois que a entrega existir E uma compra for provada ponta a ponta."
+    "_nota": "DESATIVADO em 14/09/2026, ordem da Jordana: nao existe esteira de entrega LIGADA (api/_catalogo.js sem hubGera) e o checkout RECUSA com PRODUTO_SEM_ENTREGA — medido no ar em 14/09, POST /api/pagamento devolveu 400. CORRECAO da propria nota, no mesmo dia: a primeira versao dizia que 'portar o motor NAO e ligar a entrega' e usava o PR #90 como exemplo — MEDIDO depois, isso SUBESTIMAVA o PR. O #90 traz as tres pontas (motor _revolucao-solar-core.js, builder em PRODUTOS_MULTI da esteira, e capa/PDF em _pdf-core.js), o roteamento do worker liga sozinho, e o gabarito rodou 175/175 em 14/09. Falta dele so o hubGera, deixado de fora DE PROPOSITO pela regra da casa de provar uma compra antes de vender. REABRIR = 3 passos: (1) merge do #90; (2) compra de prova em producao com o codigo admin — pagou, 4 partes geradas, PDF, e-mail na caixa; (3) hubGera:true no catalogo + ativo:true aqui, que e GATE DE PRECO dela."
   },
   "mapaastral": {
     "ativo": true,
