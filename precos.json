@@ -29,26 +29,27 @@
     "no_combo": true
   },
   "mapaprofissional": {
-    "ativo": true,
+    "ativo": false,
     "preco": 197.97,
     "preco_de": 347.0,
     "parcelas_max": 3,
     "titulo": "Mapa Profissional e Vocacional",
     "precoCheio": 197.97,
     "no_combo": true,
-    "_nota": "Preco permanente 197,97 (sem virada de lancamento)."
+    "_nota": "Preco permanente 197,97 (sem virada de lancamento). DESATIVADO em 14/09/2026, ordem da Jordana: nao existe esteira de entrega (api/_catalogo.js sem hubGera) e o checkout RECUSA com PRODUTO_SEM_ENTREGA — medido no ar em 14/09, POST /api/pagamento devolveu 400. Ficava anunciado com preco e botao de pagar, e a cliente batia no erro no fim do funil: queima trafego e confianca. REABRIR so depois que a entrega existir (builder no worker ou ramo na esteira multi) E uma compra for provada ponta a ponta."
   },
   "mapadasorte": {
-    "ativo": true,
+    "ativo": false,
     "preco": 299.0,
     "preco_de": 697.0,
     "parcelas_max": 3,
     "titulo": "Mapa da Sorte e Prosperidade",
     "precoCheio": 299.0,
-    "no_combo": true
+    "no_combo": true,
+    "_nota": "DESATIVADO em 14/09/2026, ordem da Jordana: nao existe esteira de entrega (api/_catalogo.js sem hubGera) e o checkout RECUSA com PRODUTO_SEM_ENTREGA — medido no ar em 14/09, POST /api/pagamento devolveu 400. REABRIR so depois que a entrega existir E uma compra for provada ponta a ponta."
   },
   "mapaprevisoes": {
-    "ativo": true,
+    "ativo": false,
     "preco": 697.0,
     "preco_de": 1497.0,
     "parcelas_max": 3,
@@ -57,17 +58,17 @@
     "preco_apos": 997.0,
     "lancamento_ate": "",
     "no_combo": true,
-    "_nota": "Go-live: ativo:true, preco:697 (1o periodo), depois 997 (preco_apos). De: R$1497. Motor confirmado (entrega por e-mail OK). FALTA preencher lancamento_ate com a data em que o preco vira 997 — vazio = fica 697 fixo."
+    "_nota": "DESATIVADO em 14/09/2026, ordem da Jordana: nao existe esteira de entrega (api/_catalogo.js sem hubGera) e o checkout RECUSA com PRODUTO_SEM_ENTREGA — medido no ar em 14/09, POST /api/pagamento devolveu 400. ATENCAO: a nota anterior dizia 'Motor confirmado (entrega por e-mail OK)' e isso VENCEU — era verdade no tempo dos subdominios; a migracao para subpastas (25/07/2026) matou a fila que entregava, e o preco continuou ligado sem a entrega. E o caso que mostra por que preco ativo nunca prova entrega. Preco quando reabrir: 697 (1o periodo), depois 997 (preco_apos), De R$1497; falta preencher lancamento_ate. REABRIR so depois que a entrega existir E uma compra for provada ponta a ponta."
   },
   "revolucaosolar": {
-    "ativo": true,
+    "ativo": false,
     "preco": 167.0,
     "preco_de": 297.0,
     "parcelas_max": 3,
     "titulo": "Revolução Solar",
     "precoCheio": 167.0,
     "no_combo": false,
-    "_nota": "Motor confirmado na Fase B. fora do combo Codice ate revisar inclusao — Códice nunca entrega parcial"
+    "_nota": "DESATIVADO em 14/09/2026, ordem da Jordana: nao existe esteira de entrega (api/_catalogo.js sem hubGera) e o checkout RECUSA com PRODUTO_SEM_ENTREGA — medido no ar em 14/09, POST /api/pagamento devolveu 400. A nota anterior dizia 'Motor confirmado na Fase B': o motor existe no repo legado (PR #90 do hub porta ele), mas portar o motor NAO e ligar a entrega. Fora do combo Codice ate revisar inclusao — o Codice nunca entrega parcial. REABRIR so depois que a entrega existir E uma compra for provada ponta a ponta."
   },
   "mapaastral": {
     "ativo": true,
@@ -103,6 +104,26 @@
     "isca": true,
     "oculto": true,
     "_nota": "OFERTA DO FORMULARIO, so para quem vem do /ascendente (09/09/2026, ordem dela). Preco 19,97 — abaixo do concorrente meucodigodaalma.com.br (R$ 29,90). Mesma entrega do mapaastral. Chave PROPRIA para a venda do formulario ser mensuravel separada da vitrine: o mapaastral segue 47,97 no site. NAO entra no feed, no sitemap nem no menu."
+  },
+  "codicedaalma": {
+    "ativo": false,
+    "preco": 19.97,
+    "preco_de": 47.97,
+    "parcelas_max": 3,
+    "titulo": "O Códice da Alma",
+    "precoCheio": 19.97,
+    "no_combo": false,
+    "_nota": "PRECO APROVADO POR ELA em 14/09/2026: R$ 19,97. POR QUE 19,97 e nao mais: empata com o mapaastralformulario, que ja esta no ar nesse valor, e fica abaixo do concorrente (R$ 29,90) — faixa ja praticada na casa, sem criar degrau novo no funil. DESCARTADO: 29,97 (preco nao testado aqui, e poria o produto de campanha ACIMA da porta de entrada) e escada 29,97/19,97 (adia o teste por uma diferenciacao que ainda nao foi medida). NASCE ativo:false DE PROPOSITO: a pagina /codice-da-alma so existe depois do merge do PR #150. Virar para true assim que o deploy estiver READY e a pagina responder 200 — preco ativo com pagina 404 e oferta quebrada."
+  },
+  "magnetismo": {
+    "ativo": false,
+    "preco": 19.97,
+    "preco_de": 47.97,
+    "parcelas_max": 3,
+    "titulo": "Magnetismo — Seu Jeito de Amar e Seduzir",
+    "precoCheio": 19.97,
+    "no_combo": false,
+    "_nota": "PRECO APROVADO POR ELA em 14/09/2026: R$ 19,97, mesma faixa e mesmo motivo do codicedaalma (produto de formulario para campanha). NASCE ativo:false DE PROPOSITO: a pagina /magnetismo so existe depois do merge do PR #148. Virar para true assim que o deploy estiver READY e a pagina responder 200."
   },
   "sinastria": {
     "ativo": true,
