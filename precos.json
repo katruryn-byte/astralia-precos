@@ -116,14 +116,14 @@
     "_nota": "PRECO CRAVADO POR ELA em 17/09/2026: R$ 29,97 (de R$ 69,90). Substitui a decisao de 14/09 (19,97). POR QUE MUDOU: o produto foi reposicionado por ela como o carro-chefe do lancamento — 'o Codice da Alma e o produto que vamos vender agora por 29,97' — e nao mais como isca empatada com o mapaastralformulario. 29,97 poe o Codice ACIMA da porta de entrada (19,97 do formulario), o que agora e INTENCIONAL: sao produtos diferentes, com promessas diferentes. Bate de frente com o concorrente meucodigodaalma.com.br, que vende a R$ 29,90 com ancora de R$ 69,90 — mesma faixa, e a casa entrega transitos calculados que ele nao tem. A ancora 69,90 espelha a dele de proposito. DESCARTADO: manter 19,97 (empatava com a isca e escondia que o Codice e um combo de tres leituras). O valor so vale com a pagina no ar: ativar assim que /codice-da-alma responder 200. ATIVADO em 17/09/2026, depois de provado no ar: /codice-da-alma responde 200 com HTML real, o ceu desenha (1405x915, 13.771 pixels acesos), console sem um erro sequer, formulario de pe e oferta fechada enquanto a chave estava desligada. A ordem foi essa de proposito: pagina primeiro, preco depois."
   },
   "magnetismo": {
-    "ativo": false,
-    "preco": 19.97,
+    "ativo": true,
+    "preco": 29.97,
     "preco_de": 47.97,
     "parcelas_max": 3,
     "titulo": "Magnetismo — Seu Jeito de Amar e Seduzir",
-    "precoCheio": 19.97,
+    "precoCheio": 29.97,
     "no_combo": false,
-    "_nota": "PRECO APROVADO POR ELA em 14/09/2026: R$ 19,97, mesma faixa e mesmo motivo do codicedaalma (produto de formulario para campanha). NASCE ativo:false DE PROPOSITO: a pagina /magnetismo so existe depois do merge do PR #148. Virar para true assim que o deploy estiver READY e a pagina responder 200."
+    "_nota": "PRECO 29,97 CRAVADO POR ELA em 18/09/2026 — mesma faixa do codicedaalma, por ordem direta (\"assinatura magnetica tb 29,97\"), substituindo os 19,97 aprovados em 14/09. LIGADO no mesmo dia: a condicao escrita na nota anterior era \"virar para true assim que o deploy estiver READY e a pagina responder 200\" — o PR #165 (merge do main) e o #166 (video) subiram, e /magnetismo/ responde 200 com content-type text/html. Produto de formulario para campanha, oculto da vitrine: vende por link e pelo proprio formulario."
   },
   "sinastria": {
     "ativo": true,
