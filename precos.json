@@ -182,5 +182,17 @@
       "permite_cupom_cliente": true,
       "_nota": "INERTE. Combo de PRECO FIXO. Para ligar: ativo:true + preco (numero). Enquanto ativo:false ou preco:null, vale o combo DINAMICO de hoje (soma dos faltantes com 50%/30%). produtos: vazio = usa quem tem no_combo:true; com lista = so esses. aplica_com_compras:false = preco fixo SO para quem nao tem nenhum mapa do combo (quem ja comprou continua no dinamico, pagando so o que falta). permite_downsell/permite_cupom_cliente:true = mantem o comportamento de hoje (20% e 10% ainda incidem sobre o fixo); poe false para travar o valor cheio."
     }
+  },
+  "mapaastralwhatsapp": {
+    "ativo": true,
+    "preco": 19.9,
+    "preco_de": 47.97,
+    "parcelas_max": 1,
+    "titulo": "Mapa Astral — Oferta WhatsApp",
+    "precoCheio": 19.9,
+    "no_combo": false,
+    "isca": true,
+    "oculto": true,
+    "_nota": "Autorizado por Jordana em 13/11/2026. Oferta dedicada ao WhatsApp por R$19,90. Mesma geração do Mapa Astral; preserva mapaastral R$47,97 e mapaastralformulario R$19,97. Canal de origem medido por chave própria. Entrega automática por e-mail; envio pelo WhatsApp Business é assistido pela equipe."
   }
 }
