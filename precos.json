@@ -2,11 +2,11 @@
   "_leiame": "Fonte de verdade de precos da Astralia. Repo PUBLICO, lido via raw sem login. Edite aqui para mudar precos SEM deploy. O codigo le data[id].ativo e data[id].preco. 'titulo' = nome de exibicao. 'precoCheio' = preco de venda exibido (Por). 'preco_de' = riscado. 'no_combo' marca quem entra no Codice Astral. Chaves com _ sao config, nao produtos.",
   "lilith": {
     "ativo": true,
-    "preco": 197,
-    "preco_de": 347,
+    "preco": 59.9,
+    "preco_de": 197,
     "parcelas_max": 3,
     "titulo": "Mapa da Lilith",
-    "precoCheio": 197,
+    "precoCheio": 59.9,
     "no_combo": true
   },
   "mapaastralpersonalizado": {
@@ -21,11 +21,11 @@
   },
   "mapakarmico": {
     "ativo": true,
-    "preco": 257,
-    "preco_de": 397,
+    "preco": 99,
+    "preco_de": 257,
     "parcelas_max": 3,
     "titulo": "Mapa Kármico",
-    "precoCheio": 257,
+    "precoCheio": 99,
     "no_combo": true
   },
   "mapaprofissional": {
