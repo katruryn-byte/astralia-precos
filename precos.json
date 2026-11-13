@@ -95,15 +95,15 @@
   },
   "mapaastralformulario": {
     "ativo": true,
-    "preco": 19.97,
+    "preco": 19.9,
     "preco_de": 47.97,
     "parcelas_max": 3,
     "titulo": "Mapa Astral",
-    "precoCheio": 19.97,
+    "precoCheio": 19.9,
     "no_combo": true,
     "isca": true,
     "oculto": true,
-    "_nota": "OFERTA DO FORMULARIO, so para quem vem do /ascendente (09/09/2026, ordem dela). Preco 19,97 — abaixo do concorrente meucodigodaalma.com.br (R$ 29,90). Mesma entrega do mapaastral. Chave PROPRIA para a venda do formulario ser mensuravel separada da vitrine: o mapaastral segue 47,97 no site. NAO entra no feed, no sitemap nem no menu."
+    "_nota": "OFERTA DO FORMULARIO, so para quem vem do /ascendente (09/09/2026, ordem dela). Preco 19,97 — abaixo do concorrente meucodigodaalma.com.br (R$ 29,90). Mesma entrega do mapaastral. Chave PROPRIA para a venda do formulario ser mensuravel separada da vitrine: o mapaastral segue 47,97 no site. NAO entra no feed, no sitemap nem no menu.\n13/11/2026: Jordana confirmou reutilizar esta oferta por link invisível para WhatsApp. Ajustada de R$19,97 para R$19,90; mesma entrega. Preço público mapaastral preservado."
   },
   "codicedaalma": {
     "ativo": true,
@@ -184,7 +184,7 @@
     }
   },
   "mapaastralwhatsapp": {
-    "ativo": true,
+    "ativo": false,
     "preco": 19.9,
     "preco_de": 47.97,
     "parcelas_max": 1,
@@ -193,6 +193,6 @@
     "no_combo": false,
     "isca": true,
     "oculto": true,
-    "_nota": "Autorizado por Jordana em 13/11/2026. Oferta dedicada ao WhatsApp por R$19,90. Mesma geração do Mapa Astral; preserva mapaastral R$47,97 e mapaastralformulario R$19,97. Canal de origem medido por chave própria. Entrega automática por e-mail; envio pelo WhatsApp Business é assistido pela equipe."
+    "_nota": "Autorizado por Jordana em 13/11/2026. Oferta dedicada ao WhatsApp por R$19,90. Mesma geração do Mapa Astral; preserva mapaastral R$47,97 e mapaastralformulario R$19,97. Canal de origem medido por chave própria. Entrega automática por e-mail; envio pelo WhatsApp Business é assistido pela equipe.\nNão usar: oferta consolidada em mapaastralformulario por confirmação da Jordana. Alias separado desativado."
   }
 }
