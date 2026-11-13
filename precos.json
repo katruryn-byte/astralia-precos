@@ -50,15 +50,15 @@
   },
   "mapaprevisoes": {
     "ativo": false,
-    "preco": 697,
-    "preco_de": 1497,
+    "preco": 99,
+    "preco_de": 699,
     "parcelas_max": 3,
     "titulo": "Previsões 2027",
-    "precoCheio": 697,
+    "precoCheio": 99,
     "preco_apos": 997,
     "lancamento_ate": "",
     "no_combo": true,
-    "_nota": "DESATIVADO em 14/09/2026, ordem da Jordana: nao existe esteira de entrega (api/_catalogo.js sem hubGera) e o checkout RECUSA com PRODUTO_SEM_ENTREGA — medido no ar em 14/09, POST /api/pagamento devolveu 400. ATENCAO: a nota anterior dizia 'Motor confirmado (entrega por e-mail OK)' e isso VENCEU — era verdade no tempo dos subdominios; a migracao para subpastas (25/07/2026) matou a fila que entregava, e o preco continuou ligado sem a entrega. E o caso que mostra por que preco ativo nunca prova entrega. Preco quando reabrir: 697 (1o periodo), depois 997 (preco_apos), De R$1497; falta preencher lancamento_ate. REABRIR so depois que a entrega existir E uma compra for provada ponta a ponta."
+    "_nota": "DESATIVADO em 14/09/2026, ordem da Jordana: nao existe esteira de entrega (api/_catalogo.js sem hubGera) e o checkout RECUSA com PRODUTO_SEM_ENTREGA — medido no ar em 14/09, POST /api/pagamento devolveu 400. ATENCAO: a nota anterior dizia 'Motor confirmado (entrega por e-mail OK)' e isso VENCEU — era verdade no tempo dos subdominios; a migracao para subpastas (25/07/2026) matou a fila que entregava, e o preco continuou ligado sem a entrega. E o caso que mostra por que preco ativo nunca prova entrega. Preco quando reabrir: 697 (1o periodo), depois 997 (preco_apos), De R$1497; falta preencher lancamento_ate. REABRIR so depois que a entrega existir E uma compra for provada ponta a ponta.\nDecisão Jordana 12/11/2026: Black Friday de R$699 por R$99. Período pretendido dezembro/2026 a dezembro/2027 inclusive (13 meses). Não anunciar como 18 meses. Manter venda desativada até adequar período na geração e validar entrega. Modelo 'Fable 5.2' ainda não identificado."
   },
   "revolucaosolar": {
     "ativo": false,
