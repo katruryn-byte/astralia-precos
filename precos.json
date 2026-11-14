@@ -49,7 +49,7 @@
     "_nota": "DESATIVADO em 14/09/2026, ordem da Jordana: nao existe esteira de entrega (api/_catalogo.js sem hubGera) e o checkout RECUSA com PRODUTO_SEM_ENTREGA — medido no ar em 14/09, POST /api/pagamento devolveu 400. REABRIR so depois que a entrega existir E uma compra for provada ponta a ponta."
   },
   "mapaprevisoes": {
-    "ativo": false,
+    "ativo": true,
     "preco": 99,
     "preco_de": 699,
     "parcelas_max": 3,
@@ -58,7 +58,7 @@
     "preco_apos": 997,
     "lancamento_ate": "",
     "no_combo": true,
-    "_nota": "DESATIVADO em 14/09/2026, ordem da Jordana: nao existe esteira de entrega (api/_catalogo.js sem hubGera) e o checkout RECUSA com PRODUTO_SEM_ENTREGA — medido no ar em 14/09, POST /api/pagamento devolveu 400. ATENCAO: a nota anterior dizia 'Motor confirmado (entrega por e-mail OK)' e isso VENCEU — era verdade no tempo dos subdominios; a migracao para subpastas (25/07/2026) matou a fila que entregava, e o preco continuou ligado sem a entrega. E o caso que mostra por que preco ativo nunca prova entrega. Preco quando reabrir: 697 (1o periodo), depois 997 (preco_apos), De R$1497; falta preencher lancamento_ate. REABRIR so depois que a entrega existir E uma compra for provada ponta a ponta.\nDecisão Jordana 12/11/2026: Black Friday de R$699 por R$99. Período pretendido dezembro/2026 a dezembro/2027 inclusive (13 meses). Não anunciar como 18 meses. Manter venda desativada até adequar período na geração e validar entrega. Modelo 'Fable 5.2' ainda não identificado."
+    "_nota": "Ativação solicitada pela Jo em 14/11/2026. Campanha Black Friday de R$699 por R$99, mantendo o período de dezembro/2026 a dezembro/2027 inclusive (13 meses), definido em 12/11. Entrega integrada à esteira multi-etapa do hub, com período congelado no servidor, geração por mês, PDF próprio e agendamento de entrega. Validação técnica com cálculo real e serviços de pagamento, modelo, PDF e e-mail simulados; não representa uma compra real de teste. O período não deve ser anunciado como 18 meses."
   },
   "revolucaosolar": {
     "ativo": false,
@@ -72,14 +72,14 @@
   },
   "mapaastral": {
     "ativo": true,
-    "preco": 47.97,
+    "preco": 19.97,
     "preco_de": 87,
     "parcelas_max": 3,
     "titulo": "Mapa Astral",
-    "precoCheio": 47.97,
+    "precoCheio": 19.97,
     "no_combo": false,
     "isca": true,
-    "_nota": "Isca. PRODUCAO: preco 47,97 (promo 1o mes), De 87. Apos o 1o mes, subir preco para 87.00. ATENCAO: o hub tem este preco hardcoded em PRODUTOS — atualizar la tambem (precoNum 57.97 -> 47.97)."
+    "_nota": "Preço público de R$19,97 e venda ativa por solicitação da Jo em 14/11/2026. Mesma geração e entrega do Mapa Astral; referência de R$87 preservada. Ofertas de formulário, convite e WhatsApp permanecem com suas próprias chaves."
   },
   "mapaastralsecreto": {
     "ativo": true,
