@@ -194,5 +194,15 @@
     "isca": true,
     "oculto": true,
     "_nota": "Autorizado por Jordana em 13/11/2026. Oferta dedicada ao WhatsApp por R$19,90. Mesma geração do Mapa Astral; preserva mapaastral R$47,97 e mapaastralformulario R$19,97. Canal de origem medido por chave própria. Entrega automática por e-mail; envio pelo WhatsApp Business é assistido pela equipe.\nNão usar: oferta consolidada em mapaastralformulario por confirmação da Jordana. Alias separado desativado."
+  },
+  "clube": {
+    "ativo": true,
+    "preco": 299.9,
+    "preco_de": 299.9,
+    "parcelas_max": 1,
+    "titulo": "Clube Astralia — Agenda Anual",
+    "precoCheio": 299.9,
+    "no_combo": false,
+    "_nota": "Ativado por solicitação da Jordana. Pagamento único de R$299,90 por 365 dias de acesso, sem renovação automática. Agenda pessoal com cálculos reais dos Calendários da Lua, do Céu e dos Sonhos e liberação semanal. Entrega do link privado por e-mail, com WhatsApp opcional da Aurora. O plano mensal continua em espera. Checkout, concessão, retomada, reembolso e privacidade verificados com motores reais e serviços externos simulados; não representa uma compra real de teste."
   }
 }
