@@ -127,13 +127,22 @@
   },
   "sinastria": {
     "ativo": true,
-    "preco": 147,
-    "preco_de": 197,
+    "preco": 73.5,
+    "preco_de": 147,
     "parcelas_max": 3,
     "titulo": "Sinastria Amorosa",
-    "precoCheio": 147,
+    "precoCheio": 73.5,
     "no_combo": false,
-    "_nota": "Preco base R$147, promocao de lancamento com riscado De R$197 (definido 25/06/2026)."
+    "_nota": "Oferta autorizada pela Jo em 14/11/2026: 50% sobre o preço de venda de R$147, resultando em R$73,50 até 30/11/2026 inclusive, 23h59min59s no fuso America/Fortaleza. Retorno automático a R$147 em 01/12/2026 às 00h. Adicional opcional Dossiê A Arte da Sedução por R$19,90, escolhido no checkout com uma das duas pessoas como alvo; o desconto da campanha não se acumula com o benefício de cliente nem incide sobre o adicional. Valores e escolha ficam congelados na sessão de pagamento; a entrega preserva a compra confirmada.",
+    "preco_apos": 147,
+    "lancamento_ate": "2026-11-30",
+    "campanha": {
+      "id": "cyber-monday-2026",
+      "percentual": 50,
+      "preco_original": 147,
+      "termina_em": "2026-12-01T03:00:00.000Z",
+      "fuso": "America/Fortaleza"
+    }
   },
   "astrocartografia": {
     "ativo": true,
