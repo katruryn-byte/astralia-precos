@@ -29,24 +29,24 @@
     "no_combo": true
   },
   "mapaprofissional": {
-    "ativo": false,
+    "ativo": true,
     "preco": 197.97,
     "preco_de": 347,
     "parcelas_max": 3,
     "titulo": "Mapa Profissional e Vocacional",
     "precoCheio": 197.97,
     "no_combo": true,
-    "_nota": "Preco permanente 197,97 (sem virada de lancamento). DESATIVADO em 14/09/2026, ordem da Jordana: nao existe esteira de entrega (api/_catalogo.js sem hubGera) e o checkout RECUSA com PRODUTO_SEM_ENTREGA — medido no ar em 14/09, POST /api/pagamento devolveu 400. Ficava anunciado com preco e botao de pagar, e a cliente batia no erro no fim do funil: queima trafego e confianca. REABRIR so depois que a entrega existir (builder no worker ou ramo na esteira multi) E uma compra for provada ponta a ponta."
+    "_nota": "Preco permanente 197,97 (sem virada de lancamento). DESATIVADO em 14/09/2026, ordem da Jordana: nao existe esteira de entrega (api/_catalogo.js sem hubGera) e o checkout RECUSA com PRODUTO_SEM_ENTREGA — medido no ar em 14/09, POST /api/pagamento devolveu 400. Ficava anunciado com preco e botao de pagar, e a cliente batia no erro no fim do funil: queima trafego e confianca. REABRIR so depois que a entrega existir (builder no worker ou ramo na esteira multi) E uma compra for provada ponta a ponta.\n15/11/2026 — Ativação de catálogo AUTORIZADA para testes reais com código administrativo. Mapa Profissional, Sorte e Revolução Solar não possuem hubGera e continuam com bloqueio de cobrança pública pelo checkout; teste administrativo cria pagamento real de R$1 e registra necessidade de resgate manual sem alegar entrega. Esta ativação NÃO comprova funcionamento da esteira. Oferta WhatsApp é alias de Mapa Astral e continua oculto da vitrine por padrão."
   },
   "mapadasorte": {
-    "ativo": false,
+    "ativo": true,
     "preco": 299,
     "preco_de": 697,
     "parcelas_max": 3,
     "titulo": "Mapa da Sorte e Prosperidade",
     "precoCheio": 299,
     "no_combo": true,
-    "_nota": "DESATIVADO em 14/09/2026, ordem da Jordana: nao existe esteira de entrega (api/_catalogo.js sem hubGera) e o checkout RECUSA com PRODUTO_SEM_ENTREGA — medido no ar em 14/09, POST /api/pagamento devolveu 400. REABRIR so depois que a entrega existir E uma compra for provada ponta a ponta."
+    "_nota": "DESATIVADO em 14/09/2026, ordem da Jordana: nao existe esteira de entrega (api/_catalogo.js sem hubGera) e o checkout RECUSA com PRODUTO_SEM_ENTREGA — medido no ar em 14/09, POST /api/pagamento devolveu 400. REABRIR so depois que a entrega existir E uma compra for provada ponta a ponta.\n15/11/2026 — Ativação de catálogo AUTORIZADA para testes reais com código administrativo. Mapa Profissional, Sorte e Revolução Solar não possuem hubGera e continuam com bloqueio de cobrança pública pelo checkout; teste administrativo cria pagamento real de R$1 e registra necessidade de resgate manual sem alegar entrega. Esta ativação NÃO comprova funcionamento da esteira. Oferta WhatsApp é alias de Mapa Astral e continua oculto da vitrine por padrão."
   },
   "mapaprevisoes": {
     "ativo": true,
@@ -61,14 +61,14 @@
     "_nota": "Ativação solicitada pela Jo em 14/11/2026. Campanha Black Friday de R$699 por R$99, mantendo o período de dezembro/2026 a dezembro/2027 inclusive (13 meses), definido em 12/11. Entrega integrada à esteira multi-etapa do hub, com período congelado no servidor, geração por mês, PDF próprio e agendamento de entrega. Validação técnica com cálculo real e serviços de pagamento, modelo, PDF e e-mail simulados; não representa uma compra real de teste. O período não deve ser anunciado como 18 meses."
   },
   "revolucaosolar": {
-    "ativo": false,
+    "ativo": true,
     "preco": 167,
     "preco_de": 297,
     "parcelas_max": 3,
     "titulo": "Revolução Solar",
     "precoCheio": 167,
     "no_combo": false,
-    "_nota": "DESATIVADO em 14/09/2026, ordem da Jordana: nao existe esteira de entrega LIGADA (api/_catalogo.js sem hubGera) e o checkout RECUSA com PRODUTO_SEM_ENTREGA — medido no ar em 14/09, POST /api/pagamento devolveu 400. CORRECAO da propria nota, no mesmo dia: a primeira versao dizia que 'portar o motor NAO e ligar a entrega' e usava o PR #90 como exemplo — MEDIDO depois, isso SUBESTIMAVA o PR. O #90 traz as tres pontas (motor _revolucao-solar-core.js, builder em PRODUTOS_MULTI da esteira, e capa/PDF em _pdf-core.js), o roteamento do worker liga sozinho, e o gabarito rodou 175/175 em 14/09. Falta dele so o hubGera, deixado de fora DE PROPOSITO pela regra da casa de provar uma compra antes de vender. REABRIR = 3 passos: (1) merge do #90; (2) compra de prova em producao com o codigo admin — pagou, 4 partes geradas, PDF, e-mail na caixa; (3) hubGera:true no catalogo + ativo:true aqui, que e GATE DE PRECO dela."
+    "_nota": "DESATIVADO em 14/09/2026, ordem da Jordana: nao existe esteira de entrega LIGADA (api/_catalogo.js sem hubGera) e o checkout RECUSA com PRODUTO_SEM_ENTREGA — medido no ar em 14/09, POST /api/pagamento devolveu 400. CORRECAO da propria nota, no mesmo dia: a primeira versao dizia que 'portar o motor NAO e ligar a entrega' e usava o PR #90 como exemplo — MEDIDO depois, isso SUBESTIMAVA o PR. O #90 traz as tres pontas (motor _revolucao-solar-core.js, builder em PRODUTOS_MULTI da esteira, e capa/PDF em _pdf-core.js), o roteamento do worker liga sozinho, e o gabarito rodou 175/175 em 14/09. Falta dele so o hubGera, deixado de fora DE PROPOSITO pela regra da casa de provar uma compra antes de vender. REABRIR = 3 passos: (1) merge do #90; (2) compra de prova em producao com o codigo admin — pagou, 4 partes geradas, PDF, e-mail na caixa; (3) hubGera:true no catalogo + ativo:true aqui, que e GATE DE PRECO dela.\n15/11/2026 — Ativação de catálogo AUTORIZADA para testes reais com código administrativo. Mapa Profissional, Sorte e Revolução Solar não possuem hubGera e continuam com bloqueio de cobrança pública pelo checkout; teste administrativo cria pagamento real de R$1 e registra necessidade de resgate manual sem alegar entrega. Esta ativação NÃO comprova funcionamento da esteira. Oferta WhatsApp é alias de Mapa Astral e continua oculto da vitrine por padrão."
   },
   "mapaastral": {
     "ativo": true,
@@ -193,7 +193,7 @@
     }
   },
   "mapaastralwhatsapp": {
-    "ativo": false,
+    "ativo": true,
     "preco": 19.9,
     "preco_de": 47.97,
     "parcelas_max": 1,
@@ -202,7 +202,7 @@
     "no_combo": false,
     "isca": true,
     "oculto": true,
-    "_nota": "Autorizado por Jordana em 13/11/2026. Oferta dedicada ao WhatsApp por R$19,90. Mesma geração do Mapa Astral; preserva mapaastral R$47,97 e mapaastralformulario R$19,97. Canal de origem medido por chave própria. Entrega automática por e-mail; envio pelo WhatsApp Business é assistido pela equipe.\nNão usar: oferta consolidada em mapaastralformulario por confirmação da Jordana. Alias separado desativado."
+    "_nota": "Autorizado por Jordana em 13/11/2026. Oferta dedicada ao WhatsApp por R$19,90. Mesma geração do Mapa Astral; preserva mapaastral R$47,97 e mapaastralformulario R$19,97. Canal de origem medido por chave própria. Entrega automática por e-mail; envio pelo WhatsApp Business é assistido pela equipe.\nNão usar: oferta consolidada em mapaastralformulario por confirmação da Jordana. Alias separado desativado.\n15/11/2026 — Ativação de catálogo AUTORIZADA para testes reais com código administrativo. Mapa Profissional, Sorte e Revolução Solar não possuem hubGera e continuam com bloqueio de cobrança pública pelo checkout; teste administrativo cria pagamento real de R$1 e registra necessidade de resgate manual sem alegar entrega. Esta ativação NÃO comprova funcionamento da esteira. Oferta WhatsApp é alias de Mapa Astral e continua oculto da vitrine por padrão."
   },
   "clube": {
     "ativo": true,
