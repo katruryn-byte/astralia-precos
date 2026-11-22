@@ -146,33 +146,60 @@
   },
   "astrocartografia": {
     "ativo": true,
-    "preco": 49.97,
+    "preco": 34.97,
     "preco_de": 49.97,
     "parcelas_max": 3,
     "titulo": "Astrocartografia — Mapa de Lugares",
-    "precoCheio": 49.97,
+    "precoCheio": 34.97,
     "no_combo": false,
-    "_nota": "Fase 4 (22/07/2026). Produto DETERMINISTICO (sem IA): motor self-hosted calcula 40 linhas planetarias + 40 verbetes PT + mapa-mundi. Entrega: PDF por e-mail via worker do hub (esteira astralia:fila, igual ao Mapa Astral). Preco R$49,97. preco_de deixado = preco (sem ancora riscada) — âncora de marketing aguarda decisao da Jordana (gate preco). GATE: publicar (git push deste repo) SO apos OK da Jordana."
+    "_nota": "Fase 4 (22/07/2026). Produto DETERMINISTICO (sem IA): motor self-hosted calcula 40 linhas planetarias + 40 verbetes PT + mapa-mundi. Entrega: PDF por e-mail via worker do hub (esteira astralia:fila, igual ao Mapa Astral). Preco R$49,97. preco_de deixado = preco (sem ancora riscada) — âncora de marketing aguarda decisao da Jordana (gate preco). GATE: publicar (git push deste repo) SO apos OK da Jordana. CAMPANHA BLACK FRIDAY 2026, autorizada por ela em 22/11/2026, com os valores aprovados um a um: preco promocional ate 30/11/2026 inclusive, retorno automatico ao preco cheio em 01/12/2026 as 00h (America/Fortaleza).",
+    "preco_apos": 49.97,
+    "lancamento_ate": "2026-11-30",
+    "campanha": {
+      "id": "black-friday-2026",
+      "percentual": 30,
+      "preco_original": 49.97,
+      "termina_em": "2026-12-01T03:00:00.000Z",
+      "fuso": "America/Fortaleza"
+    }
   },
   "taropergunta": {
     "ativo": true,
-    "preco": 19.97,
+    "preco": 14.97,
     "preco_de": 19.97,
     "parcelas_max": 1,
     "titulo": "Tarô — Pergunta Objetiva",
-    "precoCheio": 19.97,
+    "precoCheio": 14.97,
     "no_combo": false,
-    "_nota": "Autorizado pela Jordana em 28/07/2026. 3 cartas para uma pergunta. Sorteio DETERMINISTICO pelo sessionId: o PDF traz exatamente as cartas que ela viu virar na tela. Entrega: PDF ilustrado por e-mail (Resend) via worker, prazo declarado na pagina = ate 1 hora. A vista (a pagina /leitura-de-taro anuncia assim). Fora do Codice: o combo e de mapas."
+    "_nota": "Autorizado pela Jordana em 28/07/2026. 3 cartas para uma pergunta. Sorteio DETERMINISTICO pelo sessionId: o PDF traz exatamente as cartas que ela viu virar na tela. Entrega: PDF ilustrado por e-mail (Resend) via worker, prazo declarado na pagina = ate 1 hora. A vista (a pagina /leitura-de-taro anuncia assim). Fora do Codice: o combo e de mapas. CAMPANHA BLACK FRIDAY 2026, autorizada por ela em 22/11/2026, com os valores aprovados um a um: preco promocional ate 30/11/2026 inclusive, retorno automatico ao preco cheio em 01/12/2026 as 00h (America/Fortaleza).",
+    "preco_apos": 19.97,
+    "lancamento_ate": "2026-11-30",
+    "campanha": {
+      "id": "black-friday-2026",
+      "percentual": 25,
+      "preco_original": 19.97,
+      "termina_em": "2026-12-01T03:00:00.000Z",
+      "fuso": "America/Fortaleza"
+    }
   },
   "tarotiragem": {
     "ativo": true,
-    "preco": 57,
-    "preco_de": 57,
+    "preco": 39.9,
+    "preco_de": 57.0,
     "parcelas_max": 1,
     "titulo": "Tarô — Tiragem Completa",
-    "precoCheio": 57,
+    "precoCheio": 39.9,
     "no_combo": false,
-    "_nota": "Autorizado pela Jordana em 28/07/2026. Tiragem de 10-12 cartas com tema. Preco 57 (e NAO os 47,97 da escada original, que empatava com o Mapa Astral e canibalizava a isca). Mesma esteira da taropergunta. A vista. Fora do Codice."
+    "_nota": "Autorizado pela Jordana em 28/07/2026. Tiragem de 10-12 cartas com tema. Preco 57 (e NAO os 47,97 da escada original, que empatava com o Mapa Astral e canibalizava a isca). Mesma esteira da taropergunta. A vista. Fora do Codice. CAMPANHA BLACK FRIDAY 2026, autorizada por ela em 22/11/2026, com os valores aprovados um a um: preco promocional ate 30/11/2026 inclusive, retorno automatico ao preco cheio em 01/12/2026 as 00h (America/Fortaleza).",
+    "preco_apos": 57.0,
+    "lancamento_ate": "2026-11-30",
+    "campanha": {
+      "id": "black-friday-2026",
+      "percentual": 30,
+      "preco_original": 57.0,
+      "termina_em": "2026-12-01T03:00:00.000Z",
+      "fuso": "America/Fortaleza"
+    }
   },
   "_codice": {
     "nome": "O Códice Astral",
@@ -206,12 +233,21 @@
   },
   "clube": {
     "ativo": true,
-    "preco": 299.9,
+    "preco": 199.9,
     "preco_de": 299.9,
     "parcelas_max": 1,
     "titulo": "Clube Astralia — Agenda Anual",
-    "precoCheio": 299.9,
+    "precoCheio": 199.9,
     "no_combo": false,
-    "_nota": "Ativado por solicitação da Jordana. Pagamento único de R$299,90 por 365 dias de acesso, sem renovação automática. Agenda pessoal com cálculos reais dos Calendários da Lua, do Céu e dos Sonhos e liberação semanal. Entrega do link privado por e-mail, com WhatsApp opcional da Aurora. O plano mensal continua em espera. Checkout, concessão, retomada, reembolso e privacidade verificados com motores reais e serviços externos simulados; não representa uma compra real de teste."
+    "_nota": "Ativado por solicitação da Jordana. Pagamento único de R$299,90 por 365 dias de acesso, sem renovação automática. Agenda pessoal com cálculos reais dos Calendários da Lua, do Céu e dos Sonhos e liberação semanal. Entrega do link privado por e-mail, com WhatsApp opcional da Aurora. O plano mensal continua em espera. Checkout, concessão, retomada, reembolso e privacidade verificados com motores reais e serviços externos simulados; não representa uma compra real de teste. CAMPANHA BLACK FRIDAY 2026, autorizada por ela em 22/11/2026, com os valores aprovados um a um: preco promocional ate 30/11/2026 inclusive, retorno automatico ao preco cheio em 01/12/2026 as 00h (America/Fortaleza).",
+    "preco_apos": 299.9,
+    "lancamento_ate": "2026-11-30",
+    "campanha": {
+      "id": "black-friday-2026",
+      "percentual": 33,
+      "preco_original": 299.9,
+      "termina_em": "2026-12-01T03:00:00.000Z",
+      "fuso": "America/Fortaleza"
+    }
   }
 }
